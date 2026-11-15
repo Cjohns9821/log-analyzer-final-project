@@ -1,5 +1,5 @@
 # log-analyzer-final-project
-Description
+Description:
 This project compares a baseline log analyzer with an optimized implementation.
 
 The baseline version uses linked lists and linear searches.

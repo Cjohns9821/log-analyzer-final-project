@@ -1,5 +1,7 @@
 Log Analyzer Final Project
-Description
+
+Description:
+
 This project compares a baseline log analyzer with an optimized implementation.
 
 The baseline version uses a linked list and linear searches to track IP address occurrences within a log file. The optimized version uses a hash table with separate chaining to improve lookup performance and reduce processing time.

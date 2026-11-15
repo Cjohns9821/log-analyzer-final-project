@@ -24,9 +24,15 @@ Node* find(Node *head, char *ip)
     return NULL;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    FILE *file = fopen("sample.log", "r");
+    if (argc != 2)
+    {
+        printf("Usage: ./baseline filename\n");
+        return 1;
+    }
+
+    FILE *file = fopen(argv[1], "r");
 
     if (file == NULL)
     {
